@@ -2,7 +2,7 @@ name: VPN Gate Node Check
 
 on:
   schedule:
-    - cron: "* /3 * * *"
+    - cron: "*/3 * * *"
       timezone: "Asia/Shanghai"
   workflow_dispatch:
 
